@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="nav.css">
+  <link rel="stylesheet" href="footer.css">
+  <link rel="icon" type="image/x-icon" href="logo.jpg">
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+    h1{
+    	margin: auto;
+    	color: #99d1c6;
+    	text-align: center;
+    }
+    section {
+      max-width: 600px;
+      margin: 20px auto;
+      padding: 30px;
+      background-color: #fff;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+      color:#99d1c6;
+    }
+
+    .input, textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      box-sizing: border-box;
+    }
+
+    .button {
+      background-color: #99d1c6;
+      color: #fff;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 18px;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #4b686d;
+    }
+
+    .contact-info2 {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 30px;
+    }
+
+    .map {
+      flex: 1;
+      height: 300px;
+      border-radius: 6px;
+      overflow: hidden;
+    }
+
+    .info {
+      flex: 1;
+      padding-left: 20px;
+    }
+
+    h2 {
+      color: #99d1c6;
+    }
+
+    .social-links a {
+      display: inline-block;
+      margin-right: 10px;
+      color:  #99d1c6;
+      text-decoration: none;
+      font-size: 20px;
+      transition: color 0.3s ease;
+    }
+
+    .social-links a:hover {
+      color: #27ae60;
+    }
+		 @media only screen and (max-width: 600px) {
+       ul li>a{
+        font-size: 20px;
+        height: 10px;
+        padding: 50px 10px;
+    }
+  }
+  </style>
+</head>
+<body>
+	<ul>
+		<li><a href="about.html">About</a></li>
+		<li><a href="shop.html">Shop</a></li>
+		<li><a href="contact.html">Contact</a></li>
+		<li><a href="more.html">More</a></li>
+		<li><a href="mainpage.html">Home</a></li>
+		<img src="logo.jpg" class="logo">
+	</ul>
+    <h1>Contact us</h1>
+  <section>
+    <form action="#" method="post">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required class="input">
+
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" required class="input">
+
+      <label for="message">Your Message:</label>
+      <textarea id="message" name="message" rows="6" required class="textarea"></textarea>
+
+      <button type="submit" class="button">Send Message</button>
+    </form>
+
+    <div class="contact-info2">
+      <div class="info">
+        <h2>Contact Information</h2>
+        <p><strong>Email:</strong> tatonlinefitnesscenter.com</p>
+        <p><strong>Phone:</strong> +95 9 965 854 123</p>
+        <br>
+        <div class="social-links">
+          <a href="https://www.instagram.com/onlinefitnesscenter_/" target="_blank"><img src="app2.jpg" style="width: 30px; height: 30px; border-radius: 5px;"></a>
+          <a href="https://www.tiktok.com/@t.a.tfitness?_t=8jz8tEY9TqZ&_r=1" target="_blank"><img src="app1.jpg" style="width: 30px; height: 30px; border-radius: 5px;"></a>
+          <a href="https://www.youtube.com/" target="_blank"><img src="app3.jpg" style="width: 30px; height: 30px; border-radius: 5px;"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br>
+  <br>
+  <br>
+   <footer class="footer">
+    <div class="social-icons">
+      <a href="https://www.instagram.com/onlinefitnesscenter_/" target="_blank" title="Instagram" class="a"><img src="app2.jpg" style="width: 20px; height: 20px; border-radius: 5px;"></a>
+      <a href="https://www.tiktok.com/@t.a.tfitness?_t=8jz8tEY9TqZ&_r=1" target="_blank" title="TikTok" class="a"><img src="app1.jpg" style="width: 20px; height: 20px; border-radius: 5px;"></a>
+      <a href="https://www.youtube.com/" target="_blank" title="Youtube" class="a"><img src="app3.jpg" style="width: 20px; height: 20px; border-radius: 5px;"></i></a>
+    </div>
+    <img src="logo.jpg" alt="T.A.T Online Fitness Center" class="footer-logo">
+    <nav class="footer-nav">
+      <a href="mainpage.html" class="a">Home</a>
+      <a href="more.html" class="a">More</a>
+      <a href="contact.html" class="a">Contact</a>
+      <a href="shop.html" class="a">Shop</a>
+      <a href="about.html" class="a">About</a>
+    </nav>
+    <p class="p">Transform your life through fitness. Join our community for daily inspiration and health tips.</p>
+    <div class="newsletter-container">
+      <input type="email" class="newsletter-input" placeholder="Enter your email">
+      <button class="newsletter-button">Subscribe</button>
+    </div>
+    <div class="contact-info">
+      <p>Email: <a href="mailto:tatonlinefitness@gmail.com">info@tatfitnesscenter.com</a></p>
+      <p>Contact Us: <a href="contact.html">Click here</a></p>
+    </div>
+    <p class="credits">Website Credits: <a href="https://www.amazon.com/" target="_blank">Amazon</a>, <a href="https://www.healthline.com/fitness" target="_blank">Helath line</a>, <a href="https://www.hingehealth.com/" target="_blank">Hinge Health</a>, <a href="https://www.planetfitness.com/" target="_blank">Planethitness</a></p>
+     <div class="container">
+      <hr style="border-color: #ccc;">
+      <p class="copyright">&copy; 2024 T.A.T Online Fitness Center Year 7 Helio PBL Group B. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
